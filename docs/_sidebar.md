@@ -5,7 +5,7 @@ SKILLSETS-技能树
 
 RESEARCH-研究
 - M. Eng Study-硕士阶段
-  - [Windows Installation](install-guide/windows)
+  - [Random Polyhedron Generation](install-guide/windows)
 - Ph. D Study-博士阶段
 
 DEVELOPMENT-开发
