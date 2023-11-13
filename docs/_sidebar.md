@@ -1,3 +1,6 @@
+<!--
+This sidebar serves as the entrance of all the contents, and it can be used to configure the visibility of certain contents.
+-->
 INTRODUCTION-简介
 - [Preface-前言](README.md)
 
@@ -13,9 +16,11 @@ SKILLSETS-技能树
   - [- GEOMETRY-几何](/SKILLSETS/MATH/GEOMETRY/geometry.md)
   - [- POSSIBILITY&STATISTICS-概率与统计](/SKILLSETS/MATH/POSSIBILITY&STATISTICS/possibility&statistics.md)
 - [SCIENCE-科学](/SKILLSETS/SCIENCE/science.md)
-- [ENGINEERING-工程](/SKILLSETS/ENGINEERING/engineering.md)
 - [TECHNOLOGY-技术](/SKILLSETS/TECHNOLOGY/technology.md)
-- [IOT-物联网](SKILLSETS/IOT/iot.md)
+- [ENGINEERING-工程](/SKILLSETS/ENGINEERING/engineering.md)
+- [IOT-物联网](/SKILLSETS/IOT/iot.md)
+- [SIGNAL PROCESS-信号处理](/SKILLSETS/SIGNAL_PROCESS/signalprocess.md)
+- [CONTROL-控制](/SKILLSETS/CONTROL/control.md)
 - [DIGITAL TWIN-数字孪生](SKILLSETS/DIGITAL_TWIN/digital_twin.md)
 - [AI-人工智能](/SKILLSETS/AI/ai.md)
 

@@ -22,3 +22,4 @@ Github上的项目可能需要一点魔法
 ## 概率与统计
 - [📗] [统计至简](https://github.com/Visualize-ML/Book5_Essentials-of-Probability-and-Statistics)
 
+- [🌐] [高斯过程可视化-超参数作用](http://smlbook.org/GP/)

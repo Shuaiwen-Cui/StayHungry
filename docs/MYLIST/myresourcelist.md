@@ -17,6 +17,9 @@ some useful websites/courses for study, all free here
 - [Gaussian Process Visualization - Hyperparamters Effect](http://smlbook.org/GP/)
 
 # Science
+## Computer Science
+- [🌐] [Crash Course Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
+
 
 # Technology
 ## Developer Everything

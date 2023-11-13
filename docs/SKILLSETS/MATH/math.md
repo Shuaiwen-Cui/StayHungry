@@ -21,6 +21,7 @@
 ## POSSIBILITY & STATISTICS
 - [to read] [📗] [Essentials of Posibility and Statistics](https://github.com/Visualize-ML/Book5_Essentials-of-Probability-and-Statistics)- in Chinese, Visual ML Series 5
 
+- [read] [🌐] [Gaussian Process Visualization - Hyperparamters Effect](http://smlbook.org/GP/)
 
 
 
