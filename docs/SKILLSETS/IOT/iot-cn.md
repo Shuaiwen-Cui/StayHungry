@@ -1,4 +1,4 @@
-->[English](/SKILLSETS/IOT/iot.md)
+-> [English](/SKILLSETS/IOT/iot.md)
 
 # 传感 & 物联网 & 分布式计算与智能
 ## 传感器

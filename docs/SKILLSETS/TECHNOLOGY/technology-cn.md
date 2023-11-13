@@ -1,4 +1,4 @@
-->[English](/SKILLSETS/TECHNOLOGY/technology.md)
+-> [English](/SKILLSETS/TECHNOLOGY/technology.md)
 
 # 技术
 ## 开发者指南

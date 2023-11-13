@@ -1,4 +1,4 @@
-->[English](/SKILLSETS/SCIENCE/science.md)
+-> [English](/SKILLSETS/SCIENCE/science.md)
 # 科学
 ## Computer Science
 - [🌐] [计算机入门课程](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)

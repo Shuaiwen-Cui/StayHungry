@@ -1,4 +1,4 @@
-->[中文](/SKILLSETS/TECHNOLOGY/technology-cn.md)
+-> [中文](/SKILLSETS/TECHNOLOGY/technology-cn.md)
 
 # TECHNOLOGY
 ## Developer Everything

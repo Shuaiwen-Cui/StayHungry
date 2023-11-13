@@ -1,4 +1,4 @@
-->[中文](/SKILLSETS/MATH/math-cn.md)
+-> [中文](/SKILLSETS/MATH/math-cn.md)
 # MATH
 
 ## GENERIC

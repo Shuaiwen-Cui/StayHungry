@@ -1,4 +1,4 @@
-->[中文](/SKILLSETS/IOT/iot-cn.md)
+  > [中文](/SKILLSETS/IOT/iot-cn.md)
 
 # Sensing & IOT & DISTRIBUTIVE COMPUTING/INTELLIGENCE
 ## Sensors

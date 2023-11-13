@@ -1,4 +1,4 @@
-->[中文](/SKILLSETS/SCIENCE/science-cn.md)
+-> [中文](/SKILLSETS/SCIENCE/science-cn.md)
 # SCIENCE
 ## Computer Science
 - [Finished] [🌐] [Crash Course Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)

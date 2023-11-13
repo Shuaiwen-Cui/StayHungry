@@ -1,5 +1,7 @@
 # SHUAIWEN CUI
 
-> Research / Development / Plans / Notes
+> Skillset / Research / Development
+
+> Plans / Notes
 
 [Website](http://www.cuishuaiwen.com)

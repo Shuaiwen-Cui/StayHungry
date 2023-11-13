@@ -1,3 +1,3 @@
-->[中文](/RESEARCH/PHD/PhD-cn.md)
+-> [中文](/RESEARCH/PHD/PhD-cn.md)
 
 TO BE FILLED

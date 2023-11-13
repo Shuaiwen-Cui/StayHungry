@@ -1,4 +1,4 @@
-->[中文](/SKILLSETS/AI/ai-cn.md)
+-> [中文](/SKILLSETS/AI/ai-cn.md)
 
 # DATA SCIENCE AND AI
 ## General

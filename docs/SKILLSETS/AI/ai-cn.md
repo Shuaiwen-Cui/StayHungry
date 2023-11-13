@@ -1,4 +1,4 @@
-->[English](/SKILLSETS/AI/ai.md)
+-> [English](/SKILLSETS/AI/ai.md)
 
 # 数据科学与人工智能
 ## 通用

@@ -1,4 +1,4 @@
-->[English](/SKILLSETS/MATH/math.md)
+-> [English](/SKILLSETS/MATH/math.md)
 # 数学
 Github上的项目可能需要一点魔法
 

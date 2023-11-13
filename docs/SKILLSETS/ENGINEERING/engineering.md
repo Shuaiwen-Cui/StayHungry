@@ -1,4 +1,4 @@
-->[中文](/SKILLSETS/ENGINEERING/engineering-cn.md)
+-> [中文](/SKILLSETS/ENGINEERING/engineering-cn.md)
 
 # ENGINEERING
 ## Electronics
@@ -8,3 +8,10 @@
 - [Finished] [📗] [Arduino Cookbook, 3rd Edition](https://learning.oreilly.com/api/v1/continue/9781491903513/)
 - [5/19] [📗] [Raspberry Pi Cookbook, 4th Edition](https://learning.oreilly.com/api/v1/continue/9781098130916/)
 - [to read] [📗] [Programming Embedded Systems, 2nd Edition](https://learning.oreilly.com/api/v1/continue/0596009836/)
+
+## Hardwares
+- [🌐] [Hardware Families](https://www.arduino.cc/en/hardware)
+- [🌐] [IDE](https://www.arduino.cc/en/software)
+- [🌐] [Arduino Cloud / IOT Cloud](https://cloud.arduino.cc/)
+- [🌐] [Tutorials](https://www.arduino.cc/en/Tutorial/HomePage)
+- [🌐] [DOCs](https://docs.arduino.cc/)

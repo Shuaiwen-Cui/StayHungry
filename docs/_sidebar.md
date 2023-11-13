@@ -3,6 +3,7 @@ This sidebar serves as the entrance of all the contents, and it can be used to c
 -->
 INTRODUCTION-简介
 - [Preface-前言](README.md)
+- [Buy Me A Coffee-赞助](/ABOUT/Buy_me_a_coffee.md)
 
 MYLIST-我的清单
 - [Booklist-书单](/MYLIST/mybooklist.md)
@@ -33,6 +34,7 @@ DEVELOPMENT-开发
 - [PERCEPTION-感知](/DEVELOPMENT/PERCEPTION/perception.md)
 - [COGNITION-认知](/DEVELOPMENT/COGNITION/cognition.md)
 - [COMPUTING-计算](/DEVELOPMENT/COMPUTING/computing.md)
+- [VISUALIZATION-可视化](/DEVELOPMENT/VISUALIZATION/visualization.md)
 - [ACTUATION-执行](/DEVELOPMENT/ACTUATION/actuation.md)
 
 PROJECTS-项目
