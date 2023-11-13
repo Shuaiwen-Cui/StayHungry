@@ -3,15 +3,4 @@
 
 > 如果您觉得本站的内容对您有帮助和启发，可以通过扫描下方二维码赞助，感谢您的支持和帮助！
 
-![Wechat Pay](wechat_pay.jpg)
-
-![Ali Pay](ali_pay.jpg)
-
-<div style="display: flex; justify-content: center;">
-  <div style="margin-right: 10px;">
-    <img src="http:/8.214.19.225/CSW/Personal_File/QRCode/wechat_pay.jpg" style="border: 1px solid black; width: auto; max-height: 300px;">
-  </div>
-  <div style="margin-left: 10px;">
-    <img src="http:/8.214.19.225/CSW/Personal_File/QRCode/ali_pay.jpg" style="border: 1px solid black; width: auto; max-height: 300px;">
-  </div>
-</div>
+![QR Code](/docs/ABOUT/QRCode.png)
