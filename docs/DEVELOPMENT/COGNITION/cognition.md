@@ -1,0 +1,3 @@
+-> [中文](/DEVELOPMENT/COGNITION/cognition-cn.md)
+# COGNITION
+TO BE FILLED

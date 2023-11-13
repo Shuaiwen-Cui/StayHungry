@@ -1,0 +1,4 @@
+->[中文](/SKILLSETS/TECHNOLOGY/technology.md)
+
+# TECHNOLOGY
+TO BE FILLED

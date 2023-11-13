@@ -1,0 +1,3 @@
+-> [中文](/DEVELOPMENT/GENERIC/generic-cn.md)
+# GENERIC
+TO BE FILLED
