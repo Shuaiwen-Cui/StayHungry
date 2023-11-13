@@ -10,5 +10,3 @@
 
 ## WEBSITE OVERVIEW
 ![www.cuishuaiwen.com](website.jpeg)
-
-<img src="website.jpeg" alt="www.cuishuaiwen.com" width = "100%" />
