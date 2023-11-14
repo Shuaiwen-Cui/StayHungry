@@ -28,11 +28,23 @@ SKILLSETS-技能树
 RESEARCH-研究
 - [M. Eng Study-硕士阶段](/RESEARCH/MENG/MEng.md)
 - [Ph. D Study-博士阶段](/RESEARCH/PHD/PhD.md)
+  - [Computing in IOT-SHM](/RESEARCH/PHD/Computing_IOT_SHM/computing_iot_shm.md)
+  - [Smart Adaptive Triggering Mechanism](/RESEARCH/PHD/Smart_Adaptive_Triggering_Mechanism/satm.md)
+  - [Gaussian Process Regression and Stochastic Process Control](/RESEARCH/PHD/GPR-SPC/gprspc.md)
+
+DEVENV-开发环境
+- [OVERVIEW-概览](/DEVENV/devenv.md)
+- [HARDWARE-硬件平台](/DEVENV/HARDWARE/hardware.md)
+- [OS-操作系统](/DEVENV/OS/os.md)
+- [IDE-集成开发环境](/DEVENV/IDE/ide.md)
+- [PLATFORM-平台](/DEVENV/PLATFORM/platform.md)
+- [FRAMEWORK-框架](/DEVENV/FRAMEWORK/framework.md)
 
 DEVELOPMENT-开发
 - [GENERIC-通用](/DEVELOPMENT/GENERIC/generic.md)
 - [PERCEPTION-感知](/DEVELOPMENT/PERCEPTION/perception.md)
 - [COGNITION-认知](/DEVELOPMENT/COGNITION/cognition.md)
+- [CONTROL-控制](/DEVELOPMENT/CONTROL/control.md)
 - [COMPUTING-计算](/DEVELOPMENT/COMPUTING/computing.md)
 - [VISUALIZATION-可视化](/DEVELOPMENT/VISUALIZATION/visualization.md)
 - [ACTUATION-执行](/DEVELOPMENT/ACTUATION/actuation.md)

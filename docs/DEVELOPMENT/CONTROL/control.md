@@ -1,0 +1,3 @@
+-> [中文](/DEVELOPMENT/CONTROL/control-cn.md)
+# CONTROL
+TO BE FILLED

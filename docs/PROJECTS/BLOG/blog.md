@@ -10,5 +10,6 @@
 - MYLIST - 我的清单
 - SKILLSETS - 技能树
 - RESEARCH - 研究
+- DEVENV - 开发环境
 - DEVELOPMENT - 开发
 - PROJECTS - 项目
