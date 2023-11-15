@@ -1,6 +1,7 @@
 -> [English](/SKILLSETS/CONTROL/PID/pid.md)
 
 # PID控制 - 比例积分微分控制
+读完下面这几篇，基本上PID的理论应该就不成问题了。
 
 ## 理论
 - [PID控制算法原理（抛弃公式，从本质上真正理解PID控制）](https://zhuanlan.zhihu.com/p/39573490)
