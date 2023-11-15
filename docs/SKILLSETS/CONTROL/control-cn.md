@@ -21,21 +21,22 @@
   - 点评：
     - Brian Douglas 为 Matlab 创作了许多讲解视频
     - Brian Douglas 也有自己的Youtube频道
+    - Youtube视频可能需要一点“魔法”
   - 内容：
-    - All of Control Theory
-    - Phased Array
-    - Radar
-    - System Identification
-    - Fuzzy Logic
-    - Learning-Based Control
-    - Deep Learning
-    - Systems Engineering
-    - Autonomous Navigation
-    - Robust Control
-    - Sensor Fusion and Tracking
-    - Reinforcement Learning
-    - State Space Control
-    - Trimming and Linearization
-    - Drone Simulation and Control
-    - Control Systems in Practice
-    - Understanding PID Control
+    - 控制理论概述
+    - 相控阵
+    - 雷达
+    - 系统识别
+    - 模糊逻辑
+    - 基于学习的控制
+    - 深度学习
+    - 系统工程
+    - 自主导航
+    - 鲁棒控制
+    - 传感器融合和跟踪
+    - 强化学习
+    - 状态空间控制
+    - 修整和线性化
+    - 无人机模拟与控制
+    - 控制系统实践
+    - 了解PID控制
