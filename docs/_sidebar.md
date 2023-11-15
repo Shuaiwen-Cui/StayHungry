@@ -22,7 +22,8 @@ SKILLSETS-技能树
 - [IOT-物联网](/SKILLSETS/IOT/iot.md)
 - [SIGNAL PROCESS-信号处理](/SKILLSETS/SIGNAL_PROCESS/signalprocess.md)
 - [CONTROL-控制](/SKILLSETS/CONTROL/control.md)
-  - [PID Control-比例积分微分控制](/SKILLSETS/CONTROL/PID/pid.md)
+  - [PID CONTROL-PID控制](/SKILLSETS/CONTROL/PID/pid.md)
+  - [RL CONTROL-强化学习控制](/SKILLSETS/CONTROL/RL_CONTROL/rl_control.md)
 - [DIGITAL TWIN-数字孪生](SKILLSETS/DIGITAL_TWIN/digital_twin.md)
 - [AI-人工智能](/SKILLSETS/AI/ai.md)
 
