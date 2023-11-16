@@ -1,6 +1,6 @@
 
 
-# SHUAIWEN'S PERSONAL WEBSITE - 个人网站项目
+# PERSONAL WEBSITE - 个人网站项目
 
 ## WEBSITE LINK - 网站连接
 > [www.cuishuaiwen.com](http://www.cuishuaiwen.com)

@@ -1,9 +1,7 @@
-# SHUAIWEN CUI
+![icon](maker.png)
 
-# TECH BLOG
+> Shaun's Tech Blog
 
-> Skillset / Research / Development
-
-> Plans / Notes
+> Skillset / Research / Development : Plans / Notes
 
 [-> Personal Website](http://www.cuishuaiwen.com)

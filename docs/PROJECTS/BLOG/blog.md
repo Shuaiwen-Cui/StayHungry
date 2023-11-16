@@ -1,4 +1,4 @@
-# SHUAIWEN'S TECHNICAL BLOG - 博客 （本站）
+# TECHNICAL BLOG - 博客 （本站）
 
 ## BLOG LINK - 博客连接
 > [https://shuaiwen-cui.github.io/StayHungry/](https://shuaiwen-cui.github.io/StayHungry/)
