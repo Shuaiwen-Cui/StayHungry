@@ -26,6 +26,7 @@ SKILLSETS-技能树
   - [RL CONTROL-强化学习控制](/SKILLSETS/CONTROL/RL_CONTROL/rl_control.md)
 - [DIGITAL TWIN-数字孪生](SKILLSETS/DIGITAL_TWIN/digital_twin.md)
 - [AI-人工智能](/SKILLSETS/AI/ai.md)
+  - [Reinforcement Learning-强化学习](/SKILLSETS/AI/RL/rl.md)
 
 RESEARCH-研究
 - [M. Eng Study-硕士阶段](/RESEARCH/MENG/MEng.md)

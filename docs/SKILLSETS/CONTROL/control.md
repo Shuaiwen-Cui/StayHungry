@@ -18,6 +18,8 @@ source: [Brian Douglas](https://engineeringmedia.com/map-of-control)
     - This book is highly recommended, concise and easy to understand.
 ![The Fundamentals of Control Theory](Control_Book.png ':size=40%')
 
+- [📗] [Rapid-Prototyping of Rapid-Prototyping Machines: How to Make Something that Makes (almost) Anything](https://fab.cba.mit.edu/classes/865.21/topics/control/)
+
 - [on going] [📹] [Videos - Control Theory](https://engineeringmedia.com/videos)
   - Comments:
     - Brian Douglas created many videos for Matlab regarding Control Theory.
