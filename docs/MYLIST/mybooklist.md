@@ -37,6 +37,7 @@
 ## Programming
 ### General
 - [-] [Free] [黑马程序员教程](https://book.itheima.net/)
+
 ### C/C++
 - [2/8] [Free] [The_C_Programming_Language_(2nd_Edition_Ritchie_Kernighan)](https://kremlin.cc/k&r.pdf)
 
@@ -59,6 +60,7 @@
 ## Integrated Development Environment (IDE)
 ### Keil
 - [to read] [Free] [Keil 系列教程](https://zhuanlan.zhihu.com/p/57700360) (Zhihu | in Chinese)
+
 ### Visual Studio (VS)
 
 ### VSCode
@@ -67,6 +69,7 @@
 # Engineering
 ## Electronics
 - [Finished] [Electronics for Beginners: A Practical Introduction to Schematics, Circuits, and Microcontrollers](https://learning.oreilly.com/library/view/electronics-for-beginners/9781484259795/)
+
 ## Embedded System and Single Board Computer
 - [Finished] [Arduino Cookbook, 3rd Edition](https://learning.oreilly.com/api/v1/continue/9781491903513/)
 - [5/19] [Raspberry Pi Cookbook, 4th Edition](https://learning.oreilly.com/api/v1/continue/9781098130916/)
@@ -90,6 +93,7 @@
 
 ## Computer Vision
 - [1/14] [Computer Vision: Algorithms and Applications](https://szeliski.org/Book/)
+
 ## Time Series Data
 
 # Perception

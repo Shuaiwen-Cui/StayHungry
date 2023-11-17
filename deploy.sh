@@ -1,3 +1,6 @@
+# usage: in git bash, input sh deploy.sh - windows; or in terminal input ./deploy.sh and click approve git for windows pop up to run it
+# usage: in terminal, input ./deploy.sh - mac / linux
+
 echo '--------upload files start--------'
 # enter the target folder
 # cd ./
