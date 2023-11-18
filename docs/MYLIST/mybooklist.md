@@ -1,9 +1,9 @@
-# MyBookList
+# 📓 MyBookList
 [m/n] stands for reading progress; each book name is attached with a link, some are free for access with a free mark.
 
 [🏆] highly recommended
 
-# Mathematics
+# 🧮 Mathematics
 ## General
 - [to read] [Free] [Beauty of Data Visualization](https://github.com/Visualize-ML/Book2_Beauty-of-Data-Visualization) - in Chinese, Visual ML Series 2
 
@@ -24,13 +24,13 @@
 ## Posibility and Statistics
 - [to read] [Free] [Essentials of Posibility and Statistics](https://github.com/Visualize-ML/Book5_Essentials-of-Probability-and-Statistics)- in Chinese, Visual ML Series 5
 
-# Science
+# 🧪 Science
 ## Computer Science
 - [Finished] [Foundations of Computer Science](https://github.com/acmbpdc/openlib.cs)
 
 - [1/14] [Computer System: A Programmer's Perspective](https://github.com/iWangMu/Book-CSAPP/blob/master/_Attachments/Computer_Systems_A_Programmers_Perspective(3rd).pdf)
 
-# Technology
+# 🦾 Technology
 ## Developer Everything
 - [Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap)
 
@@ -65,8 +65,7 @@
 
 ### VSCode
 
-
-# Engineering
+# 🏗️ Engineering
 ## Electronics
 - [Finished] [Electronics for Beginners: A Practical Introduction to Schematics, Circuits, and Microcontrollers](https://learning.oreilly.com/library/view/electronics-for-beginners/9781484259795/)
 
@@ -75,7 +74,7 @@
 - [5/19] [Raspberry Pi Cookbook, 4th Edition](https://learning.oreilly.com/api/v1/continue/9781098130916/)
 - [to read] [Programming Embedded Systems, 2nd Edition](https://learning.oreilly.com/api/v1/continue/0596009836/)
 
-# Data Science and AI
+# 📉 Data Science and AI
 ## General
 - [Finished] [Free] [🏆] [First Course in Data Science](https://github.com/Visualize-ML/Book6_First-Course-in-Data-Science) - in Chinese, Visual ML Series 6
 
@@ -96,7 +95,7 @@
 
 ## Time Series Data
 
-# Perception
+# 📸 Perception
 ## Sensors
 - [3/18] [Sensor Technologies for Civil Infrastructures, Volume 1](https://learning.oreilly.com/api/v1/continue/9780857094322/) 
 - [6/21] [Sensor Technologies for Civil Infrastructures, Volume 2](https://learning.oreilly.com/library/view/-/9781782422426/)
@@ -117,7 +116,7 @@
 
 - [5/21] [TinyML](https://learning.oreilly.com/library/view/tinyml/9781492052036/)
 
-# Cognition
+# 🧠 Cognition
 ## Digital Signal Process
 - [2/13] [Understanding Digital Signal Processing](https://learning.oreilly.com/library/view/understanding-digital-signal/9780137028450/)
 
@@ -127,6 +126,6 @@
 ## Digital Twin
 - [2/9] [Digital Twin - A Dynamic System And Computation Perspective](https://www.taylorfrancis.com/books/mono/10.1201/9781003268048/digital-twin-ranjan-ganguli-sondipon-adhikari-souvik-chakraborty-mrittika-ganguli)
 
-# Action
-## Robtics
+# 🤖 Action
+## Robotics
 

@@ -1,7 +1,10 @@
 ![icon](maker.png)
 
-> Shaun's Tech Blog
+> ✒️ Shaun's Tech Blog
 
-> Skillset / Research / Development : Plans / Notes
+> 🔬 Skillset / 🎓 Research / 🦾 Development
 
-[-> Personal Website](http://www.cuishuaiwen.com)
+> 📚 Notes / 📝 Plans / 📖 Articles
+
+
+[🔗 Personal Website](http://www.cuishuaiwen.com)

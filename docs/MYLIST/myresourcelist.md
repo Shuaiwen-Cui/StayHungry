@@ -1,7 +1,7 @@
-# MyResourceList
+# 📓 MyResourceList
 some useful websites/courses for study, all free here
 
-# Mathematics
+# 🧮 Mathematics
 ## General
 - [Beauty of Data Visualization](https://github.com/Visualize-ML/Book2_Beauty-of-Data-Visualization) - in Chinese, Visual ML Series 2
 
@@ -16,12 +16,12 @@ some useful websites/courses for study, all free here
 - [Essentials of Possibility and Statistics](https://github.com/Visualize-ML/Book5_Essentials-of-Probability-and-Statistics)- in Chinese, Visual ML Series 5
 - [Gaussian Process Visualization - Hyperparamters Effect](http://smlbook.org/GP/)
 
-# Science
+# 🧪 Science
 ## Computer Science
 - [🌐] [Crash Course Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
 
 
-# Technology
+# 🦾 Technology
 ## Developer Everything
 - [Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap)
 
@@ -66,9 +66,7 @@ some useful websites/courses for study, all free here
 ### Node
 - [Node-Express-Course](https://www.youtube.com/watch?v=Oe421EPjeBE) link:[github](https://github.com/john-smilga/node-express-course)
 
-
-
-# Engineering
+# 🏗️ Engineering
 ## Electronics
 - [Arduino Cookbook, 3rd Edition](https://learning.oreilly.com/api/v1/continue/9781491903513/) | [Associated Code](https://github.com/bjepson/Arduino-Cookbook-3ed-INO)
 
@@ -79,8 +77,7 @@ some useful websites/courses for study, all free here
 - [Tutorials](https://www.arduino.cc/en/Tutorial/HomePage)
 - [DOCs](https://docs.arduino.cc/)
 
-
-# Data Science and AI
+# 📉 Data Science and AI
 ## General
 - [First Course in Data Science](https://github.com/Visualize-ML/Book6_First-Course-in-Data-Science) - in Chinese, Visual ML Series 6
 
@@ -97,9 +94,9 @@ some useful websites/courses for study, all free here
 ### Tensorflow
 - [Tensorflow](https://www.tensorflow.org/)
 
-# Perception
+# 📸 Perception
 
-# Cognition
+# 🧠 Cognition
 
-# Action
+# 🤖 Action
 
