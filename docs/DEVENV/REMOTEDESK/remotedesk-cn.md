@@ -23,6 +23,8 @@ SSH是一种协议，允许您通过终端连接到远程计算机并对其进�
     - OpenSSH服务器 - 从其他计算机控制Windows计算机
   - 确保两者都已安装
     - 如何做到？请参考上面的链接
+  - 确保SSH使用的22端口可以通过防火墙
+    - 如果不知道如何操作，请搜索相关信息。
   - 确保SSH服务器正在运行，并且可以在Windows启动时自动启动：
     - 步骤1 - 打开 `服务`
     - 步骤2 - 找到 `OpenSSH SSH Server` 和 `OpenSSH Authentication Agent`

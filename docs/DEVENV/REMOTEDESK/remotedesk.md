@@ -21,6 +21,8 @@ SSH is a protocol that allows you to connect to a remote machine and control it 
     - OpenSSH Server - control the Windows computer from other computers
   - Ensure both of them are installed
     - How to do that? Follow the link above
+  - Ensure the port 22 for SSH is enabled in the Firewall
+    - You can google this part if you don't know how to do that.
   - Ensure the SSH server is running and can start to run automatically when windows starts up:
     - Step 1 - Open `Services`
     - Step 2 - Find `OpenSSH SSH Server` and `OpenSSH Authentication Agent`
