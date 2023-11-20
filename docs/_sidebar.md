@@ -37,6 +37,7 @@ This sidebar serves as the entrance of all the contents, and it can be used to c
   - [Gaussian Process Regression and Stochastic Process Control](/RESEARCH/PHD/GPR-SPC/gprspc.md)
 
 🧰 DEVENV-开发环境
+- [OVERVIEW-概览](/DEVENV/devenv.md)
 - [HARDWARE-硬件平台](/DEVENV/HARDWARE/hardware.md)
 - [OS-操作系统](/DEVENV/OS/os.md)
 - [REMOTEDESK-远程桌面](/DEVENV/REMOTEDESK/remotedesk.md)
