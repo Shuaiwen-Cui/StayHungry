@@ -40,6 +40,7 @@ This sidebar serves as the entrance of all the contents, and it can be used to c
 - [OVERVIEW-概览](/DEVENV/devenv.md)
 - [HARDWARE-硬件平台](/DEVENV/HARDWARE/hardware.md)
 - [OS-操作系统](/DEVENV/OS/os.md)
+- [REMOTEDESK-远程桌面](/DEVENV/REMOTEDESK/remotedesk.md)
 - [IDE-集成开发环境](/DEVENV/IDE/ide.md)
 - [PLATFORM-平台](/DEVENV/PLATFORM/platform.md)
 - [FRAMEWORK-框架](/DEVENV/FRAMEWORK/framework.md)
