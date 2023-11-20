@@ -12,7 +12,7 @@ SSH is a protocol that allows you to connect to a remote machine and control it 
   - `hostname` is the hostname of the remote machine, can be an IP address or a domain name
 
 ### NOTES
-- If you want to use SSH to connect to a remote machine, you need to make sure that the remote machine has an SSH server installed and running!!!
+?> If you want to use SSH to connect to a remote machine, you need to make sure that the remote machine has an SSH server installed and running!!!
 
 #### Windows
 - have OpenSSH Server installed, and running
@@ -55,8 +55,9 @@ VNC is a protocol that allows you to connect to a remote machine and control it 
 - STEP 5 - Close the VNC client
 
 ### NOTES
-- If you want to use VNC to connect to a remote machine, you need to make sure that the remote machine has a VNC server installed and running!!!
-- If you don't know how to do that, please google it.
+?>  If you want to use VNC to connect to a remote machine, you need to make sure that the remote machine has a VNC server installed and running!!!
+
+?>  If you don't know how to do that, please google it.
 
 ### SOFTWARES
 Some softwares can be used to connect to a remote machine via VNC, such as:
