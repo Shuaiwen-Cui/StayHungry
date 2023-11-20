@@ -1,7 +1,3 @@
--> [English](/DEVENV/REMOTEDESK/remotedesk.md)
-
-注意：以下文字由AI翻译而来，如果有翻译腔，请见谅。
-
 # 远程桌面
 
 ## SSH
@@ -14,8 +10,7 @@ SSH是一种协议，允许您通过终端连接到远程计算机并对其进�
   - `主机名` 是远程计算机的主机名，可以是IP地址或域名
 
 ### 注意事项
-?>  如果要使用SSH连接到远程计算机，必须确保远程计算机安装并运行了SSH服务器！！！
-  
+- 如果要使用SSH连接到远程计算机，必须确保远程计算机安装并运行了SSH服务器！！！
 #### Windows
 - 安装并运行OpenSSH服务器
   - [🔗 在Windows上开始使用OpenSSH](https://learn.microsoft.com/zh-cn/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui)
@@ -23,8 +18,6 @@ SSH是一种协议，允许您通过终端连接到远程计算机并对其进�
     - OpenSSH服务器 - 从其他计算机控制Windows计算机
   - 确保两者都已安装
     - 如何做到？请参考上面的链接
-  - 确保SSH使用的22端口可以通过防火墙
-    - 如果不知道如何操作，请搜索相关信息。
   - 确保SSH服务器正在运行，并且可以在Windows启动时自动启动：
     - 步骤1 - 打开 `服务`
     - 步骤2 - 找到 `OpenSSH SSH Server` 和 `OpenSSH Authentication Agent`
@@ -59,14 +52,13 @@ VNC是一种协议，允许您通过图形用户界面连接到远程计算机�
 - 步骤5 - 关闭VNC客户端
 
 ### 注意事项
-?>  如果要使用VNC连接到远程计算机，必须确保远程计算机安装并运行了VNC服务器！！！
-
-?>  如果不知道如何操作，请搜索相关信息。
+- 如果要使用VNC连接到远程计算机，必须确保远程计算机安装并运行了VNC服务器！！！
+- 如果不知道如何操作，请搜索相关信息。
 
 ### 软件
 一些软件可用于通过VNC连接到远程计算机，例如：
 - [RealVNC](https://www.realvnc.com/)
-  - 我最喜欢的VNC客户端
+  - 我最喜欢的
 - [TigerVNC](https://tigervnc.org/)
 
 ## 远程桌面软件
@@ -101,5 +93,5 @@ VNC是一种协议，允许您通过图形用户界面连接到远程计算机�
 
 ### MacOS
 - [Microsoft Remote Desktop](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12)
-  - 可以用来控制Windows
+  - 这可以用来控制Windows
   - 非常稳定，支持高分辨率

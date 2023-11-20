@@ -12,8 +12,7 @@ SSH is a protocol that allows you to connect to a remote machine and control it 
   - `hostname` is the hostname of the remote machine, can be an IP address or a domain name
 
 ### NOTES
-?> If you want to use SSH to connect to a remote machine, you need to make sure that the remote machine has an SSH server installed and running!!!
-
+- If you want to use SSH to connect to a remote machine, you need to make sure that the remote machine has an SSH server installed and running!!!
 #### Windows
 - have OpenSSH Server installed, and running
   - [🔗 Get Started With OpenSSH On Windows](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui)
@@ -21,8 +20,6 @@ SSH is a protocol that allows you to connect to a remote machine and control it 
     - OpenSSH Server - control the Windows computer from other computers
   - Ensure both of them are installed
     - How to do that? Follow the link above
-  - Ensure the port 22 for SSH is enabled in the Firewall
-    - You can google this part if you don't know how to do that.
   - Ensure the SSH server is running and can start to run automatically when windows starts up:
     - Step 1 - Open `Services`
     - Step 2 - Find `OpenSSH SSH Server` and `OpenSSH Authentication Agent`
@@ -57,9 +54,8 @@ VNC is a protocol that allows you to connect to a remote machine and control it 
 - STEP 5 - Close the VNC client
 
 ### NOTES
-?>  If you want to use VNC to connect to a remote machine, you need to make sure that the remote machine has a VNC server installed and running!!!
-
-?>  If you don't know how to do that, please google it.
+- If you want to use VNC to connect to a remote machine, you need to make sure that the remote machine has a VNC server installed and running!!!
+- If you don't know how to do that, please google it.
 
 ### SOFTWARES
 Some softwares can be used to connect to a remote machine via VNC, such as:
@@ -101,5 +97,3 @@ Some softwares can be used to connect to a remote machine via VNC, such as:
 - [Microsoft Remote Desktop](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12)
   - This can be used to control a windows
   - Pretty stable and features high resolution
-
-
