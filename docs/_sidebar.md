@@ -46,6 +46,8 @@ This sidebar serves as the entrance of all the contents, and it can be used to c
 - [SOFTWARE-软件](/DEVENV/SOFTWARE/software.md)
 - [PLATFORM-平台](/DEVENV/PLATFORM/platform.md)
 - [FRAMEWORK-框架](/DEVENV/FRAMEWORK/framework.md)
+- [LITERATURE-文献](/DEVENV/LITERATURE/literature.md)
+- [WRITING-写作](/DEVENV/WRITING/writing.md)
 
 ⚙ DEVELOPMENT-开发
 - [GENERIC-通用](/DEVELOPMENT/GENERIC/generic.md)
