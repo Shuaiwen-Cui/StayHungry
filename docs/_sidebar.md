@@ -43,6 +43,7 @@ This sidebar serves as the entrance of all the contents, and it can be used to c
 - [REMOTEDESK-远程桌面](/DEVENV/REMOTEDESK/remotedesk.md)
 - [IDE-集成开发环境](/DEVENV/IDE/ide.md)
 - [GIT-GITHUB](/DEVENV/GIT-GITHUB/git-github.md)
+- [SOFTWARE-软件](/DEVENV/SOFTWARE/software.md)
 - [PLATFORM-平台](/DEVENV/PLATFORM/platform.md)
 - [FRAMEWORK-框架](/DEVENV/FRAMEWORK/framework.md)
 
