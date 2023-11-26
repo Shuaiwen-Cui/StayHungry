@@ -1,4 +1,4 @@
-> I have things to to, people to impress and places to go.
+> I have things to to, people to impress, and places to go.
 
 ## ✒️ Shaun's Rabbit Hole
 
