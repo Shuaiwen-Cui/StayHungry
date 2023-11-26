@@ -1,6 +1,6 @@
 <!-- _navbar.md -->
-- [✒️ HOME-主页](/)
-- [🌐 Personal Website](http://www.cuishuaiwen.com)
+- [✒️ HOME](/)
+- [🌐 PERSONAL WEBSITE](http://www.cuishuaiwen.com)
 
 
 
