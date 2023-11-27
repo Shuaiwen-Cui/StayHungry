@@ -45,4 +45,17 @@
 - 步骤4：打开您想要同步的项目或文件夹
 - 步骤5：完成
 
-?> 实际上，您可以在Windows上访问iCloud Drive上的文件。但是，这些文件不会下载到本地计算机。只有当您打开文件时，才能下载文件。这有点不方便。
+?> 实际上，您可以在Windows上访问iCloud Drive上的文件。但是，这些文件不会下载到本地计算机。可以右键相应文件夹，选择“始终保留在此设备上”。
+
+### 在MacOS上使用OneDrive与Windows同步
+> 如何在MacOS上使用OneDrive与Windows同步？
+
+- [OneDrive for Mac](https://mac.com/)
+
+在MacOS上使用OneDrive与Windows同步的步骤：
+- 步骤1：下载并安装OneDrive for Mac
+- 步骤2：登录
+- 步骤3：打开OneDrive
+- 步骤4：打开您想要同步的项目或文件夹
+- 步骤5：完成
+

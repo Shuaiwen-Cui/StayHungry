@@ -3,12 +3,12 @@ This sidebar serves as the entrance of all the contents, and it can be used to c
 -->
 
 🎙️ INTRODUCTION-简介
-- [Preface-前言](README.md)
-- [Buy Me A Coffee-赞助](/ABOUT/Buy_me_a_coffee.md)
+- [Preface-前言](README.md)<!-- Completed -->
+- [Buy Me A Coffee-赞助](/ABOUT/Buy_me_a_coffee.md)<!-- Completed -->
 
 📌 MYLIST-我的清单
-- [Booklist-书单](/MYLIST/mybooklist.md)
-- [Resourcelist-资源清单](/MYLIST/myresourcelist.md)
+- [Booklist-书单](/MYLIST/mybooklist.md)<!-- Completed -->
+- [Resourcelist-资源清单](/MYLIST/myresourcelist.md)<!-- Completed -->
 
 🥷🏻 SKILLSETS-技能树
 - [GENERIC-通用](/SKILLSETS/GENERIC/generic.md)
@@ -37,11 +37,14 @@ This sidebar serves as the entrance of all the contents, and it can be used to c
   - [Gaussian Process Regression and Stochastic Process Control](/RESEARCH/PHD/GPR-SPC/gprspc.md)
 
 🧰 DEVENV-开发环境
-- [HARDWARE-硬件平台](/DEVENV/HARDWARE/hardware.md)
-- [OS-操作系统](/DEVENV/OS/os.md)
-- [REMOTEDESK-远程桌面](/DEVENV/REMOTEDESK/remotedesk.md)
+- [HARDWARE-硬件平台](/DEVENV/HARDWARE/hardware.md)<!-- Completed -->
+- [OS-操作系统](/DEVENV/OS/os.md)<!-- Completed -->
+  - [WINDOWS](/DEVENV/OS/WINDOWS/windows.md)
+  - [MACOS](/DEVENV/OS/MACOS/macos.md)
+  - [LINUX](/DEVENV/OS/LINUX/linux.md)
+- [REMOTEDESK-远程桌面](/DEVENV/REMOTEDESK/remotedesk.md)<!-- Completed -->
 - [IDE-集成开发环境](/DEVENV/IDE/ide.md)
-- [CLOUDSYNC-云同步](/DEVENV/CLOUDSYNC/cloudsync.md)
+- [CLOUDSYNC-云同步](/DEVENV/CLOUDSYNC/cloudsync.md)<!-- Completed -->
 - [GIT-GITHUB](/DEVENV/GIT-GITHUB/git-github.md)
 - [SOFTWARE-软件](/DEVENV/SOFTWARE/software.md)
 - [PLATFORM-平台](/DEVENV/PLATFORM/platform.md)
@@ -59,7 +62,7 @@ This sidebar serves as the entrance of all the contents, and it can be used to c
 - [ACTUATION-执行](/DEVELOPMENT/ACTUATION/actuation.md)
 
 🚀 PROJECTS-项目
-- [🌐 WEBSITE-个人网站](/PROJECTS/WEBSITE/website.md)
-- [✒️ BLOG-技术博客](/PROJECTS/BLOG/blog.md)
+- [🌐 WEBSITE-个人网站](/PROJECTS/WEBSITE/website.md)<!-- Completed -->
+- [✒️ BLOG-技术博客](/PROJECTS/BLOG/blog.md)<!-- Completed -->
 - [🏘️ DIGITAL SPACE-数字空间](/PROJECTS/DIGITAL_SPACE/digital_space.md)
 
