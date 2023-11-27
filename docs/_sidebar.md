@@ -37,20 +37,20 @@ This sidebar serves as the entrance of all the contents, and it can be used to c
   - [Gaussian Process Regression and Stochastic Process Control](/RESEARCH/PHD/GPR-SPC/gprspc.md)
 
 🧰 DEVENV-开发环境
-- [HARDWARE-硬件平台](/DEVENV/HARDWARE/hardware.md)<!-- Completed -->
-- [OS-操作系统](/DEVENV/OS/os.md)<!-- Completed -->
+- [🎮️ HARDWARE-硬件平台](/DEVENV/HARDWARE/hardware.md)<!-- Completed -->
+- [🕹️ OS-操作系统](/DEVENV/OS/os.md)<!-- Completed -->
   - [WINDOWS](/DEVENV/OS/WINDOWS/windows.md)
   - [MACOS](/DEVENV/OS/MACOS/macos.md)
   - [LINUX](/DEVENV/OS/LINUX/linux.md)
-- [REMOTEDESK-远程桌面](/DEVENV/REMOTEDESK/remotedesk.md)<!-- Completed -->
+- [💻 REMOTEDESK-远程桌面](/DEVENV/REMOTEDESK/remotedesk.md)<!-- Completed -->
 - [IDE-集成开发环境](/DEVENV/IDE/ide.md)
-- [CLOUDSYNC-云同步](/DEVENV/CLOUDSYNC/cloudsync.md)<!-- Completed -->
+- [☁️ CLOUDSYNC-云同步](/DEVENV/CLOUDSYNC/cloudsync.md)<!-- Completed -->
 - [GIT-GITHUB](/DEVENV/GIT-GITHUB/git-github.md)
 - [SOFTWARE-软件](/DEVENV/SOFTWARE/software.md)
 - [PLATFORM-平台](/DEVENV/PLATFORM/platform.md)
 - [FRAMEWORK-框架](/DEVENV/FRAMEWORK/framework.md)
-- [LITERATURE-文献](/DEVENV/LITERATURE/literature.md)
-- [WRITING-写作](/DEVENV/WRITING/writing.md)
+- [📚️ LITERATURE-文献](/DEVENV/LITERATURE/literature.md)<!-- Completed -->
+- [🖋️ WRITING-写作](/DEVENV/WRITING/writing.md)<!-- Completed -->
 
 ⚙ DEVELOPMENT-开发
 - [GENERIC-通用](/DEVELOPMENT/GENERIC/generic.md)

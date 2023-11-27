@@ -9,7 +9,7 @@
 
 > Welcome to my personal tech blog! This website serves as a roadmap for my personal study, research and development. Explore this site by clicking the sidebar.
 
-!> To switch language, click the language button on the top of the page. 
+!> To switch language, click the language button (if available) on the top of each page. 
 
 ## 🎮 关于本站
 > 欢迎来到我的技术博客主页！此站供个人学习研究之用。点击左侧导航栏开始浏览。
