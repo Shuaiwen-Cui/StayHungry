@@ -4,7 +4,7 @@
 ## GENERIC
 - [on going] [🌐] [3Blue1Brown](https://www.youtube.com/@3blue1brown)
 
-- [to read] [📗] [Beauty of Data Visualization](https://github.com/Visualize-ML/Book2_Beauty-of-Data-Visualization) - in Chinese, Visual ML Series 2
+- [7/36] [📗] [Beauty of Data Visualization](https://github.com/Visualize-ML/Book2_Beauty-of-Data-Visualization) - in Chinese, Visual ML Series 2
 
 - [to read] [📗] [Elements of Mathematics](https://github.com/Visualize-ML/Book3_Elements-of-Mathematics) - in Chinese, Visual ML Series 3
 
