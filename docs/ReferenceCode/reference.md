@@ -3,6 +3,15 @@ This file is for reference uses.
 # Common Emojis
 🏆 🏗️ 📌 🔬 🧰 ⚙ 🚀 📉 🎙️ 📸 🧠 🤖 🥷🏻 🌐 ✒️ 🏘️ 🦾 🔗 🖋️ 📚️ ☁️  🕹️ 💻 🎮️
 
+# Common Patterns
+-> [中文](/SKILLSETS/MATH/POSSIBILITY&STATISTICS/possibility&statistics-cn.md)
+# POSSIBILITY AND STATISTICS
+TO BE FILLED
+
+-> [English](/SKILLSETS/MATH/POSSIBILITY&STATISTICS/possibility&statistics.md)
+# 概率与统计
+待更新
+
 # Docsify Plugins & Configurations
 
 ## PDF Embedding

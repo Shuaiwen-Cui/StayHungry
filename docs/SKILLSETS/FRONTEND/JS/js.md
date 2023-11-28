@@ -1,0 +1,3 @@
+-> [中文](/SKILLSETS/FRONTEND/JS/js-cn.md)
+
+# JAVASCRIPT
