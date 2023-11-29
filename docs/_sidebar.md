@@ -27,6 +27,8 @@ This sidebar serves as the entrance of all the contents, and it can be used to c
   - [HTML](/SKILLSETS/FRONTEND/HTML/html.md)
   - [CSS](/SKILLSETS/FRONTEND/CSS/css.md)
   - [JAVASCRIPT](/SKILLSETS/FRONTEND/JS/js.md)
+  - [WEBGL](/SKILLSETS/FRONTEND/WEBGL/webgl.md)
+  - [THREEJS](/SKILLSETS/FRONTEND/THREEJS/threejs.md)
 - [BACKEND-后端](/SKILLSETS/BACKEND/backend.md)
 - [IOT-物联网](/SKILLSETS/IOT/iot.md)
 - [SIGNAL PROCESS-信号处理](/SKILLSETS/SIGNAL_PROCESS/signalprocess.md)
