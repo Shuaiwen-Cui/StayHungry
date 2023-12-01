@@ -3,12 +3,12 @@ This sidebar serves as the entrance of all the contents, and it can be used to c
 -->
 
 🎙️ INTRODUCTION-简介
-- [Preface-前言](README.md)<!-- Completed -->
-- [Buy Me A Coffee-赞助](/ABOUT/Buy_me_a_coffee.md)<!-- Completed -->
+- [📜 Preface-前言](README.md)<!-- Completed -->
+- [🧋 Buy Me A Coffee-赞助](/ABOUT/Buy_me_a_coffee.md)<!-- Completed -->
 
 📌 MYLIST-我的清单
-- [Booklist-书单](/MYLIST/mybooklist.md)<!-- Completed -->
-- [Resourcelist-资源清单](/MYLIST/myresourcelist.md)<!-- Completed -->
+- [📚️ Booklist-书单](/MYLIST/mybooklist.md)<!-- Completed -->
+- [🕸️ Resourcelist-资源清单](/MYLIST/myresourcelist.md)<!-- Completed -->
 
 🥷🏻 SKILLSETS-技能树
 - [GENERIC-通用](/SKILLSETS/GENERIC/generic.md)
