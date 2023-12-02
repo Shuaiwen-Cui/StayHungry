@@ -69,4 +69,28 @@ https://twitter.com/threejs
 - Run 'npm init -y'
 - Run 'npm install vite'
 
+> Key elements
+- Scene
+  - construct objects first
+    - geometry
+    - material
+    - mesh
+  - add objects to scene
+- Camera
+  - field of view - vertical angle
+  - aspect ratio - width / height
+  - near plane - distance from camera to near clipping plane
+  - far plane - distance from camera to far clipping plane
+- Renderer
 
+# A BASICS - CH04 TRANSFORM OBJECTS
+> Introduction
+- Transformations
+  - Position
+  - Rotation
+  - Scale
+  - Quaternion
+- Coordinates
+  - x pointing to the right
+  - y pointing up
+  - z pointing towards us

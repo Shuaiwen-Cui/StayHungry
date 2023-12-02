@@ -1,6 +1,18 @@
 -> [English](/SKILLSETS/AI/ai.md)
 
 # 数据科学与人工智能
+## 路线图
+**来源:** [🔗 黑马程序员教程-数据科学](https://book.itheima.net/learnline/1269935677353533441)
+
+```pdf
+    /docs/SKILLSETS/AI/DataScience.pdf
+```
+
+![数据科学路线图](DataScience_00.png)
+
+![数据科学路线图](DataScience_01.png)
+
+
 ## 通用
 - [📗] [🏆] [数据有道](https://github.com/Visualize-ML/Book6_First-Course-in-Data-Science) - in Chinese, Visual ML Series 6
 

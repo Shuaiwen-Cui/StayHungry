@@ -1,6 +1,20 @@
 -> [English](/SKILLSETS/MATH/PYTHON/python.py)
 
-本文档为鸢尾花系列的第一篇的学习感悟，主要介绍Python的相关内容,仅记录重要部分，详细内容请参考原书。
+# PYTHON
+
+## 路线图
+
+**来源：** [黑马程序员-PYTHON](https://book.itheima.net/learnline/221)
+
+```pdf
+    /docs/SKILLSETS/MATH/PYTHON/Python.pdf
+```
+
+![Python](Python_00.png)
+![Python](Python_01.png)
+
+# 编程不难-PYTHON
+以下为鸢尾花系列的第一篇的学习感悟，主要介绍Python的相关内容,仅记录重要部分，详细内容请参考原书。
 链接：[📗] [编程不难](https://github.com/Visualize-ML/Book1_Python-For-Beginners)
 
 ```pdf
@@ -8,10 +22,7 @@
 ```
 
 注意：如果不能正常显示请访问Github连接进行下载。
-
-# PYTHON
-
-# CH01 聊聊“巨蟒”
+## CH01 聊聊“巨蟒”
 > Python用途
 - 机器学习
 - 深度学习
@@ -50,7 +61,7 @@ Python 解释器、常用的第三方库、包管理器、IDE 等。前文提到
 
 - Anaconda 是一个流行的 Python 发行版，由 Anaconda, Inc.开发和维护，旨在为数据科学、机器学习和科学计算提供一个全面的工具包。Anaconda 集成了许多常用的 Python 库和工具，如 NumPy、SciPy、Pandas、Matplotlib、Scikit-learn、JupyterNotebook 等。它还包括一个名为 conda 的软件包管理器，可以帮助用户安装、更新和管理 Python 库和依赖项。Anaconda还提供了一个名为 Anaconda Navigator 的图形用户界面，用户可以通过这个界面轻松地管理他们的 Python 环境、安装和卸载库、启动 Jupyter Notebook 等操作。除了 Python 环境和库之外，Anaconda 还包括许多其他工具和应用程序，如Spyder、PyCharm、VS Code、R 语言环境等等，使得它成为数据科学家和研究人员的首选工具之一。Anaconda 可以安装在多个平台上，包括 Windows、Linux 和 Mac OS X。
 
-# CH02 JupyterLab
+## CH02 JupyterLab
 > 什么是JupyterLab？
 
 JupyterLab 是一个交互式开发环境，可以让用户创建和共享 Jupyter 笔记本、代码、数据和文档。它是 Jupyter Notebook 的升级版本，提供了更强大的功能和更直观的用户界面。JupyterLab 支持多种语言，包括 Python、R、Julia 和 Scala 等。它还提供了多个面向数据科学的扩展，如 JupyterLab Git、JupyterLab LaTeX 和 JupyterLab Debugger 等，使得数据科学家和开发人员可以更加高效地进行数据分析、机器学习和模型开发等工作。JupyterLab 的主要特点包括：基于 web 的用户界面，可以让用户同时在一个界面中管理多个笔记本和文件。支持多种文件格式，包括 Jupyter 笔记本、Markdown 文档、Python脚本和 CSV 文件等。可以通过拖放和分栏等方式来组织和管理笔记本和文件。提供了一组内置的编辑器、终端、文件浏览器和输出查看器等工具。可以通过扩展系统来扩展和定制 JupyterLab 的功能。JupyterLab 集合“浏览器 + 编程 + 文档 + 绘图 + 多媒体 + 发布”众多功能与一身。对于初学者，哪怕是有开发经验的读者来说，JupyterLab 都特别适合探究式学习。
@@ -77,7 +88,7 @@ JupyterLab 中，内核 (kernel) 是指与特定编程语言交互的后台进�
 ![快捷键](Shortcut1.png)
 ![快捷键](Shortcut2.png)
 
-# CH04 Python语法
+## CH04 Python语法
 > 常见关键词
 
 > Python与C语言区别
@@ -121,7 +132,7 @@ JupyterLab 中，内核 (kernel) 是指与特定编程语言交互的后台进�
 > Pythonic
 - Pythonic 是指符合 Python 语言风格指南 (Pythonic) 的代码，它是一种 Python 代码的风格，可以使得代码更加简洁、易读、易维护。Pythonic 代码的特点包括：使用 Python 语言的特性和语法，例如使用列表推导式、字典推导式、集合推导式、生成器表达式、装饰器、上下文管理器等。使用 Python 内置的函数和数据结构，例如使用内置函数、使用列表、元组、集合和字典等。使用 Python 内置的模块和包，例如使用 os 模块、使用 sys 模块、使用 itertools 模块等。使用 Python 内置的面向对象特性，例如使用类、使用继承、使用多态等。使用 Python 内置的异常处理机制，例如使用 try...except...finally 语句、使用 raise 语句等。使用 Python 内置的模块和包，例如使用 os 模块、使用 sys 模块、使用 itertools 模块等。使用 Python 内置的面向对象特性，例如使用类、使用继承、使用多态等。使用 Python 内置的异常处理机制，例如使用 try...except...finally 语句、使用 raise 语句等。
 
-# Python数据类型
+## CH05 Python数据类型
 > 数据类型
 - 数字
 - 字符串

@@ -30,6 +30,7 @@ This sidebar serves as the entrance of all the contents, and it can be used to c
   - [WEBGL](/SKILLSETS/FRONTEND/WEBGL/webgl.md)
   - [THREEJS](/SKILLSETS/FRONTEND/THREEJS/threejs.md)
 - [BACKEND-后端](/SKILLSETS/BACKEND/backend.md)
+  - [JAVA](/SKILLSETS/BACKEND/JAVA/java.md)
 - [IOT-物联网](/SKILLSETS/IOT/iot.md)
 - [SIGNAL PROCESS-信号处理](/SKILLSETS/SIGNAL_PROCESS/signalprocess.md)
 - [CONTROL-控制](/SKILLSETS/CONTROL/control.md)
