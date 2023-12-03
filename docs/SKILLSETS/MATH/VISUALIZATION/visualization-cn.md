@@ -41,3 +41,14 @@
 
 # CH11 平面线图
 curse of dimensionality
+
+# CH12 平面填充
+
+# CH13 极坐标绘图
+
+# CH14 各种网格
+
+# CH15 平面等高线
+
+# CH16 热图
+

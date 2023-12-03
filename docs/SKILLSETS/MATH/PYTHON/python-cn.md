@@ -354,3 +354,38 @@ fruit_set.discard("orange")
 > 身份运算符
 
 > 优先级
+
+# Python 控制结构
+> 什么是控制结构
+- 条件语句
+- 循环语句
+- 异常处理
+  - try...except...finally
+  ```python
+    try:
+      # 代码块
+    except:
+      # 代码块
+    finally:
+      # 代码块
+  ```
+> 条件语句
+- if
+- if...else...
+- if...elif...else...
+- break, continue, pass
+  - break 用于终止循环，break 语句通常与 if 语句一起使用，当满足某个条件时，使用 break 语句终止循环。
+  - continue 用于跳过循环中的某些代码，continue 语句通常与 if 语句一起使用，当满足某个条件时，使用 continue 语句跳过循环中的某些代码。
+  - pass 用于占位，pass 语句通常与 if 语句一起使用，当满足某个条件时，使用 pass 语句跳过循环中的某些代码。
+> 循环语句
+- enumerate()
+  - enumerate() 函数用于将一个可遍历的数据对象 (如列表、元组或字符串) 组合为一个索引序列，同时列出数据和数据下标，一般用在 for 循环中。enumerate() 函数的语法格式为：enumerate(iterable, start=0)，其中 iterable 为可遍历的数据对象，start 为索引起始值，默认为 0。
+- zip()
+  - zip() 函数用于将多个可迭代对象组合为一个元组序列，同时列出数据和数据下标，一般用在 for 循环中。zip() 函数的语法格式为：zip(*iterables)，其中 iterables 为可迭代对象，可以是多个可迭代对象，也可以是一个可迭代对象。
+- 列表生成式
+  - 表达方式为：[expression for item in iterable]，其中 expression 为表达式，item 为可迭代对象中的元素，iterable 为可迭代对象。
+- 向量化
+- 矩阵乘法为@
+> 迭代器
+- 排列与组合
+- 有放回和无放回
