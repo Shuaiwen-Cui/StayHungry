@@ -94,3 +94,115 @@ https://twitter.com/threejs
   - x pointing to the right
   - y pointing up
   - z pointing towards us
+
+# A BASICS - CH05 ANIMATION
+- requestAnimationFrame
+
+
+
+# A BASICS - CH06 CAMERA
+
+- camera parameters: 
+  - field of view
+    - vertical angle
+  - aspect ratio
+    - width / height
+  - near plane 
+    - distance from camera to near clipping plane
+  - far plane - don't be too far - z-fighting
+    - distance from camera to far clipping plane
+
+- camera size - render size
+
+- control camera
+
+- cursor position
+  - normalized device coordinates
+    - x: -1 to 1
+    - y: -1 to 1
+  - world coordinates
+    - x: -width/2 to width/2
+    - y: -height/2 to height/2
+
+- Threejs built-in control
+  - DeviceOrientationControls
+    - it will automatically retrieve the device orientation and move the camera accordingly.
+  - FlyControls
+  - FirstPersonControls
+    - nothing to do with FPS
+  - PointerLockControls
+    - it will lock the cursor in the center of the screen and move the camera according to the cursor's movements.
+    - Also can use JS method
+  - OrbitControls* - used in the tutorial - [drag to rotate, scroll to zoom]
+    - it will move the camera around a target point, and it will always face that point.
+  - TrackballControls
+    - it will move the camera around a target point, and it will always face that point.
+  - TransformControls
+    - it will move, rotate, and scale an object in the scene.
+    - nothing to do with camera
+  - DragControls
+    - it will move an object in the scene.
+    - nothing to do with camera
+
+- Damping
+  - it will slow down the camera's movements.
+  - it will make the camera's movements smoother.
+
+# A BASICS - CH07 FULLSCREEN AND RESIZING
+- Screen
+  - Window
+    - Viewport
+      - Canvas
+        - Renderer
+          - Scene
+            - Camera
+            - Object
+              - Mesh
+                - Geometry
+                - Material
+note: the above hierarchy may not be accurate, just my current understanding
+
+- margin, paddin = 0
+
+- Resize
+
+- Sawtooth effect
+
+- Pixel Ratio
+
+- Full Screen
+
+# A BASICS - CH08 GEOEMETRY
+- Geometry
+  - vertices
+    - position
+    - normal
+    - uv
+    - color
+    - index
+    - custom attributes
+    - custom groups
+    - etc
+
+- Threejs built-in geometry
+  - Geometry
+    - BoxGeometry
+    - PlaneGeometry
+    - CircleGeometry
+    - ConeGeometry
+    - CylinderGeometry
+    - RingGeometry
+    - TorusGeometry
+    - TorusKnotGeometry
+    - DodecahedronGeometry
+    - OctahedronGeometry
+    - TetrahedronGeometry
+    - IsohedronGeometry
+    - SphereGeometry
+    - ShapeGeometry
+      - Based on Bezier curves
+    - TubeGeometry
+    - ExtrudeGeometry
+    - LatheGeometry
+      - curve + rotation
+    - TextGeometry
