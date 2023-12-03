@@ -33,3 +33,11 @@
 
 # CH08 色彩空间
 
+# CH09 色谱
+
+# CH10 平面散点
+
+68-95-99.7 法则
+
+# CH11 平面线图
+curse of dimensionality
