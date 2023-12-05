@@ -206,3 +206,18 @@ note: the above hierarchy may not be accurate, just my current understanding
     - LatheGeometry
       - curve + rotation
     - TextGeometry
+
+# A BASICS - CH09 DEBUG UI
+- debug UIs
+  - dat.GUI
+  - lil-GUI * - used in the tutorial
+  - control-panel
+  - ControlKit
+  - Uil
+  - Tweakpane
+  - Guify
+  - Oui
+
+- npm install lil-gui
+
+- be careful with the color
