@@ -52,3 +52,16 @@ curse of dimensionality
 
 # CH16 热图
 
+# CH17 非矢量图片
+
+# CH18 三维散点
+
+# CH19 三维线图
+
+# CH20 网格曲面
+
+# CH21 三维等高线
+
+# CH22 箭头图
+
+# CH23 三角网格
