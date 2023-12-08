@@ -419,3 +419,88 @@ map() 函数用于对可迭代对象中的每个元素应用指定的函数，�
   - 在 Python 中，可以使用 setuptools 库中的 setup()函数将多个模块打包成一个库。
 
 # CH10 聊聊可视化
+- matplotlib
+- seaborn
+- plotly
+
+# CH11 二维可视化
+
+# CH12 三维可视化
+
+# CH13 聊聊NumPy
+> 什么是NumPy
+
+- ndarray
+  - NumPy 最重要的功能之一是提供了高效的多维数组对象 ndarray，可以用来表示向量、矩阵
+和更高维的数组。它是 Python 中最重要的科学计算数据结构，支持广泛的数值运算和数学函数操
+作
+- xarray
+  - 此外，如果大家需要处理有标签、多维数组数据的话，推荐使用 xarray。xarray 可以看作是
+在 ndarray 的基础上，增加了标签和元数据的功能。xarray 可以对多个数组进行向量化计算，避免
+了循环操作，提高了计算效率。
+
+> 手动构造数组
+
+numpy.array()
+
+> 生成数列
+
+- numpy.arange(start, stop, step, dtype)
+- numpy.linspace(start, stop, num, endpoint, retstep, dtype)
+- numpy.logspace(start, stop, num, endpoint, base, dtype)
+
+> 生成网格数据
+
+- numpy.meshgrid() 可以生成多维网格数据，它可以
+将多个一维数组组合成一个 N 维数组，并且可以方便地对这个 N 维数组进行计算和可视化。
+- numpy.meshgrid()
+
+> 特殊数组
+numpy.empty()
+
+numpy.empty_like()
+
+numpy.eye()
+
+numpy.full()
+
+numpy.full_like()
+
+numpy.ones()
+
+numpy.ones_like()
+
+numpy.zeros()
+
+numpy.zeros_like()
+
+> 随机数
+
+numpy.random.uniform()
+
+numpy.random.randint()
+
+numpy.random.beta()
+
+numpy.random.poisson()
+
+numpy.random.exponential()
+
+numpy.random.geometric()
+
+numpy.random.binomial()
+
+numpy.random.normal()
+
+numpy.random.multivariate_normal()
+
+numpy.random.lognormal()
+
+numpy.random.standard_t()
+
+numpy.random.dirichlet()
+
+> 数组导入导出
+numpy.savetxt()
+
+numpy.genfromtxt()
