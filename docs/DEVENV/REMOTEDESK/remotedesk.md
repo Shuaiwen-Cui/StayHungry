@@ -13,6 +13,7 @@ SSH is a protocol that allows you to connect to a remote machine and control it 
 
 ### NOTES
 - If you want to use SSH to connect to a remote machine, you need to make sure that the remote machine has an SSH server installed and running!!!
+
 #### Windows
 - have OpenSSH Server installed, and running
   - [🔗 Get Started With OpenSSH On Windows](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui)
@@ -26,6 +27,39 @@ SSH is a protocol that allows you to connect to a remote machine and control it 
     - Step 3 - Right Click on them and select `Start`
     - Step 4 - Right Click on them and select `Properties`
     - Step 5 - Select `Automatic` in `Startup type`
+
+#### Linux - Ubuntu
+
+- step 1 - install openssh-server
+
+```bash
+sudo apt-get install openssh-server
+```
+
+- step 2 - start ssh server
+
+```bash
+sudo service ssh start
+```
+
+- step 3 - check if ssh server is running
+
+```bash
+sudo service ssh status
+```
+
+- step 4 - enable ssh server to start automatically when system starts up
+
+```bash
+sudo systemctl enable ssh
+```
+
+- step 5 - check if ssh server is running
+
+```bash
+sudo systemctl is-enabled ssh
+```
+
 
 ### SOFTWARES
 Some softwares can be used to connect to a remote machine via SSH, such as:
@@ -56,6 +90,9 @@ VNC is a protocol that allows you to connect to a remote machine and control it 
 ### NOTES
 - If you want to use VNC to connect to a remote machine, you need to make sure that the remote machine has a VNC server installed and running!!!
 - If you don't know how to do that, please google it.
+
+#### Ubuntu
+[how to enable VNC on Ubuntu LTS22](https://linuxstory.org/how-to-install-and-configure-vnc-on-ubuntu-22-04/)
 
 ### SOFTWARES
 Some softwares can be used to connect to a remote machine via VNC, such as:
@@ -97,3 +134,4 @@ Some softwares can be used to connect to a remote machine via VNC, such as:
 - [Microsoft Remote Desktop](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12)
   - This can be used to control a windows
   - Pretty stable and features high resolution
+
