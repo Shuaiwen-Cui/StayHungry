@@ -7,7 +7,7 @@ Github上的项目可能需要一点魔法
 
 - (10/30) [📗] [编程不难](https://github.com/Visualize-ML/Book1_Python-For-Beginners)
   
-- (22/36) [📗] [可视之美](https://github.com/Visualize-ML/Book2_Beauty-of-Data-Visualization)
+- (finished) [📗] [可视之美](https://github.com/Visualize-ML/Book2_Beauty-of-Data-Visualization)
 
 - [📗] [数学元素](https://github.com/Visualize-ML/Book3_Elements-of-Mathematics)
 
