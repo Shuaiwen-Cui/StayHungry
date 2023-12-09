@@ -67,3 +67,6 @@ curse of dimensionality
 # CH23 三角网格
 
 # CH24 平面几何
+
+# CH25 立体几何
+
