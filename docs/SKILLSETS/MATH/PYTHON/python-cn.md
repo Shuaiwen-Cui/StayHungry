@@ -504,3 +504,11 @@ numpy.random.dirichlet()
 numpy.savetxt()
 
 numpy.genfromtxt()
+
+# CH14 NumPy索引和切片
+newaxis and squeeze
+reshape
+view copy deepcopy
+
+# CH15 NumPy常见运算
+
