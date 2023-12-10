@@ -5,8 +5,7 @@ Github上的项目可能需要一点魔法
 ## 通用
 - [🌐] [3Blue1Brown](https://www.youtube.com/@3blue1brown)
 
-- (15/30) [📗] [编程不难](https://github.com/Visualize-ML/Book1_Python-For-Beginners)
-  
+- (16/30) [📗] [编程不难](https://github.com/Visualize-ML/Book1_Python-For-Beginners)
 - (finished··) [📗] [可视之美](https://github.com/Visualize-ML/Book2_Beauty-of-Data-Visualization)
 
 - [📗] [数学元素](https://github.com/Visualize-ML/Book3_Elements-of-Mathematics)

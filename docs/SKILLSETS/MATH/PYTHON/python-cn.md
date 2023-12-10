@@ -512,3 +512,10 @@ view copy deepcopy
 
 # CH15 NumPy常见运算
 
+# CH16 NumPy数组变形
+![变形](RESHAPE.png)
+
+numpy.reshape(a, newshape, order ='C')
+a: 数组
+newshape: 新的形状
+order: 'C'按行，'F'按列，'A'原顺序，'K'元素在内存中的出现顺序
