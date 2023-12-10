@@ -7,7 +7,7 @@ Github上的项目可能需要一点魔法
 
 - (10/30) [📗] [编程不难](https://github.com/Visualize-ML/Book1_Python-For-Beginners)
   
-- (finished) [📗] [可视之美](https://github.com/Visualize-ML/Book2_Beauty-of-Data-Visualization)
+- (finished··) [📗] [可视之美](https://github.com/Visualize-ML/Book2_Beauty-of-Data-Visualization)
 
 - [📗] [数学元素](https://github.com/Visualize-ML/Book3_Elements-of-Mathematics)
 
@@ -24,4 +24,4 @@ Github上的项目可能需要一点魔法
 ## 概率与统计
 - [📗] [统计至简](https://github.com/Visualize-ML/Book5_Essentials-of-Probability-and-Statistics)
 
-- [🌐] [高斯过程可视化-超参数作用](http://smlbook.org/GP/)
+- [🌐] [高斯过程可视化-超参数作用](http://smlbook.org/GP/)·
