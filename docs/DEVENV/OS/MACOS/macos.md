@@ -1,3 +1,3 @@
--> [中文](/DEVENV/OS/MacOS/macos-cn.md)
+-> [中文](/DEVENV/OS/MACOS/macos-cn.md)
 
 # MACOS

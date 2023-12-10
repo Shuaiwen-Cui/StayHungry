@@ -1,4 +1,4 @@
--> [English](/DEVENV/OS/Windows/windows.md)
+-> [English](/DEVENV/OS/WINDOWS/windows.md)
 
 # WINDOWS 系统
 

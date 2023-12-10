@@ -221,3 +221,19 @@ note: the above hierarchy may not be accurate, just my current understanding
 - npm install lil-gui
 
 - be careful with the color
+
+# A BASICS - CH10 TEXTURES
+> What are textures?
+- PBR - Physically Based Rendering
+
+> How to load textures?
+- how to get the image url?
+
+- loadingManager
+  - loadingManager.onLoad
+  - loadingManager.onProgress
+  - loadingManager.onError
+- UV Unwrapping
+  - UV coordinates
+  - UV mapping
+  - UV unwrapping

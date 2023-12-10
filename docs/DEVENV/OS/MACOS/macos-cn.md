@@ -1,3 +1,3 @@
--> [English](/DEVENV/OS/MacOS/macos.md)
+-> [English](/DEVENV/OS/MACOS/macos.md)
 
 # MACOS 系统

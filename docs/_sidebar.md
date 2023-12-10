@@ -55,6 +55,8 @@ This sidebar serves as the entrance of all the contents, and it can be used to c
   - [LINUX](/DEVENV/OS/LINUX/linux.md)
 - [💻 REMOTEDESK-远程桌面](/DEVENV/REMOTEDESK/remotedesk.md)<!-- Completed -->
 - [IDE-集成开发环境](/DEVENV/IDE/ide.md)
+  - [C/C++](/DEVENV/IDE/C_CPP/c_cpp.md)
+  - [PYTHON](/DEVENV/IDE/PYTHON/python.md)
 - [☁️ CLOUDSYNC-云同步](/DEVENV/CLOUDSYNC/cloudsync.md)<!-- Completed -->
 - [GIT-GITHUB](/DEVENV/GIT-GITHUB/git-github.md)
 - [SOFTWARE-软件](/DEVENV/SOFTWARE/software.md)

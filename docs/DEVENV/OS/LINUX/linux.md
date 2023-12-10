@@ -1,3 +1,3 @@
--> [中文](/DEVENV/OS/Linux/linux-cn.md)
+-> [中文](/DEVENV/OS/LINUX/linux-cn.md)
 
 # LINUX

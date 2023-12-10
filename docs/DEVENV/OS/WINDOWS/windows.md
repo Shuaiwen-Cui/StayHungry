@@ -1,4 +1,4 @@
--> [中文](/DEVENV/OS/Windows/windows-cn.md)
+-> [中文](/DEVENV/OS/WINDOWS/windows-cn.md)
 
 # WINDOWS
 

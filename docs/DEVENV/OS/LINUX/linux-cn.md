@@ -1,3 +1,3 @@
--> [English](/DEVENV/OS/Linux/linux.md)
+-> [English](/DEVENV/OS/LINUX/linux.md)
 
 # LINUX 系统
