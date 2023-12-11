@@ -291,6 +291,12 @@ g++ -v source.cpp -o output
 
 ### Make & Makefile
 
+[Makefile 20分钟入门，简简单单，展示如何使用Makefile管理和编译C++代码](https://www.bilibili.com/video/BV188411L7d2/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f)
+
+make安装，其实都在MinGW里面了，把mingw32-make改名make即可。确保MinGW的路径在环境变量Path中。
+[安装make的三种方式](https://tehub.com/a/aCYp1uw0tG)
+我这里用的第三种。
+
 以下部分转自以下链接：
 [🔗 Makefile入门(超详细一文读懂)](https://zhuanlan.zhihu.com/p/575852387)
 
@@ -681,6 +687,324 @@ clean:
 
 ### CMake & CMakeLists.txt
 
+![CMAKE](CMAKE.png ':size=50%')
+
+[🏆 🌐 B站视频：CMake 6分钟入门，不用再写复杂的Makefile](https://www.bilibili.com/video/BV1bg411p7oS/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f)
+
+[🌐 B站视频：软件构建: CMake 快速入门](https://www.bilibili.com/video/BV1rR4y1E7n9/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f)
+
+
+参考VSCode官方的教程（该教程默认系统为Linux，但是也可以作为windows MacOS的参考）
+[🔗 Get started with CMake Tools on Linux](https://code.visualstudio.com/docs/cpp/CMake-linux)
+
+[🔗 CMake 构架过程分析](https://www.zhihu.com/zvideo/1524517565376638976?playTime=127.1)
+总的来说，CMake的编译分成两个步骤：
+1. 配置 （Configure）
+   1. 配置 （Configure）
+    解析 CMakelists.txt 文件，检测工具链，检测架构，寻找依赖，生成缓存文件。
+   2. 生成 （Generate）
+    写构架工具文件，生成缓存文件。
+2. 构建 （Build）
+    编译二进制文件，连接二进制文件，运行测试，打包二进制文件。
+
+[CMake 良心教程，教你从入门到入魂 ](https://zhuanlan.zhihu.com/p/500002865)
+
+以下说明来自上面连接：
+
+**Step 0 - 环境配置**
+环境是 Windows + CMake + MinGW，MinGW 就是 GCC 的 Windows 移植版本。
+
+供相关工具下载链接：
+
+构建工具：[Download | CMake](https://cmake.org/download/)
+编译工具：[Downloads - MinGW-w64](https://www.mingw-w64.org/downloads/)
+需要注意的是，CMake 和 MinGW 安装好后，要手动添加到环境变量。
+**Step 1 - 构建最小项目**
+最基本的项目是将一个源代码文件生成可执行文件。对于这么简单的项目，只需要一个三行的 CMakeLists.txt 文件即可，这是本篇教程的起点。在 step1 目录中创建一个 CMakeLists.txt 文件，如下所示：
+```bash
+cmake_minimum_required(VERSION 3.15)
+
+# set the project name
+project(Tutorial)
+
+# add the executable
+add_executable(Tutorial tutorial.cpp)
+```
+**cmake_minimum_required** 指定使用 **CMake** 的最低版本号，**project** 指定项目名称，**add_executable** 用来生成可执行文件，需要指定生成可执行文件的名称和相关源文件。
+
+注意，此示例在 CMakeLists.txt 文件中使用小写命令。CMake 支持大写、小写和混合大小写命令。tutorial.cpp 文件在 step1 目录中，可用于计算数字的平方根。
+
+```Cpp
+// tutorial.cpp
+
+#include <cmath>
+#include <cstdlib>
+#include <iostream>
+#include <string>
+
+int main(int argc, char* argv[])
+{
+    if (argc < 2) {
+        std::cout << "Usage: " << argv[0] << " number" << std::endl;
+        return 1;
+    }
+
+    // convert input to double
+    const double inputValue = atof(argv[1]);
+
+    // calculate square root
+    const double outputValue = sqrt(inputValue);
+    std::cout << "The square root of " << inputValue
+              << " is " << outputValue
+              << std::endl;
+    return 0;
+}
+```
+> 构建、编译和运行
+
+现在就可以构建和运行我们的项目了，就是先运行 cmake 命令来构建项目，然后使用你选择的编译工具进行编译。
+
+先从命令行进入到 step1 目录，并创建一个构建目录 build，接下来，进入 build 目录并运行 CMake 来配置项目，并生成构建系统：
+
+```bash
+mkdir build
+cd build
+cmake -G"MinGW Makefiles" ..
+```
+构建系统是需要指定 CMakeLists.txt 所在路径，此时在 build 目录下，所以用 .. 表示 CMakeLists.txt 在上一级目录。
+
+Windows 下，CMake 默认使用微软的 MSVC 作为编译器，我想使用 MinGW 编译器，可以通过 -G 参数来进行指定，只有第一次构建项目时需要指定。
+
+此时在 build 目录下会生成 Makefile 文件，然后调用编译器来实际编译和链接项目：
+
+```bash
+cmake --build .
+```
+
+--build 指定编译生成的文件存放目录，其中就包括可执行文件，. 表示存放到当前目录，
+
+在 build 目录下生成了一个 Tutorial.exe 可执行文件，试着执行它：
+
+```bash
+.\Tutorial.exe 5
+```
+
+输出结果如下：
+
+```bash
+The square root of 5 is 2.23607
+```
+该程序计算 5 的平方根，从输出结果看已经得到了正确的结果。
+
+此时目录结构为：
+
+```bash
+step1/
+    build/
+    CMakeLists.txt
+    tutorial.cpp
+```
+
+> 外部构建与内部构建
+这里创建了一个 build 目录存放编译产物，可以避免编译产物与代码文件混在一起，这种叫做外部构建。
+
+还有一种内部构建，即直接在项目根目录下进行构建系统与编译，这时构建和编译命令就更改为：
+
+```bash
+cmake -G"MinGW Makefiles" .
+cmake --build .
+```
+内部构建会使得项目文件很混乱，一般直接用外部构建即可。
+
+**Step 2 - 优化 CMakeList.txt 文件**
+
+> set 与 PROJECT_NAME
+这是之前见过的 CMakeLists.txt 文件：
+
+```bash
+cmake_minimum_required(VERSION 3.15)
+
+# set the project name
+project(Tutorial)
+
+# add the executable
+add_executable(Tutorial tutorial.cpp)
+```
+
+指定了项目名后，后面可能会有多个地方用到这个项目名，如果更改了这个名字，就要改多个地方，比较麻烦，那么可以使用 PROJECT_NAME 来表示项目名。
+
+```bash
+add_executable(${PROJECT_NAME} tutorial.cpp)
+```
+
+生成可执行文件需要指定相关的源文件，如果有多个，那么就用空格隔开，比如：
+
+```bash
+add_executable(${PROJECT_NAME} a.cpp b.cpp c.cpp)
+```
+
+我们也可以用一个变量来表示这多个源文件：
+
+```bash
+set(SRC_LIST a.cpp b.cpp c.cpp)
+add_executable(${PROJECT_NAME} ${SRC_LIST})
+```
+
+set 命令指定 SRC_LIST 变量来表示多个源文件，用 ${var_name} 获取变量的值。
+
+于是原来的 CMakeLists.txt 文件就可以变成如下所示：
+
+```bash
+cmake_minimum_required(VERSION 3.15)
+
+# set the project name
+project(Tutorial)
+
+SET(SRC_LIST tutorial.cpp)
+
+# add the executable
+add_executable(${PROJECT_NAME} ${SRC_LIST})
+```
+这样看起来就很简洁。
+
+> 添加版本号和配置头文件
+
+我们可以在 CMakeLists.txt 为可执行文件和项目提供一个版本号。首先，修改 CMakeLists.txt 文件，使用 project 命令设置项目名称和版本号。
+
+```bash
+cmake_minimum_required(VERSION 3.15)
+
+# set the project name and version
+project(Tutorial VERSION 1.0.2)
+
+configure_file(TutorialConfig.h.in TutorialConfig.h)
+```
+然后，配置头文件将版本号传递给源代码：
+
+```bash
+configure_file(TutorialConfig.h.in TutorialConfig.h)
+```
+由于 TutorialConfig.h 文件这里被设置为自动写入 build 目录，因此需要将该目录添加到搜索头文件的路径列表中，也可以修改为写到其它目录。
+
+将以下行添加到 CMakeLists.txt 文件的末尾：
+
+```bash
+target_include_directories(${PROJECT_NAME} PUBLIC
+                           ${PROJECT_BINARY_DIR}
+                           )
+```
+
+PROJECT_BINARY_DIR 表示当前工程的二进制路径，即编译产物会存放到该路径，此时PROJECT_BINARY_DIR 就是 build 所在路径。
+
+然后手动创建 http://TutorialConfig.h.in 文件，包含以下内容：
+
+```Cpp
+// the configured options and settings for Tutorial
+#define Tutorial_VERSION_MAJOR @PROJECT_VERSION_MAJOR@
+#define Tutorial_VERSION_MINOR @PROJECT_VERSION_MINOR@
+#define Tutorial_VERSION_PATCH @PROJECT_VERSION_PATCH@
+```
+当使用 CMake 构建项目后，会在 build 中生成一个 TutorialConfig.h 文件，内容如下：
+```Cpp
+// the configured options and settings for Tutorial
+#define Tutorial_VERSION_MAJOR 1
+#define Tutorial_VERSION_MINOR 0
+#define Tutorial_VERSION_PATCH 2
+```
+下一步在 tutorial.cpp 包含头文件 TutorialConfig.h，最后通过以下代码打印出可执行文件的名称和版本号。
+
+```Cpp
+    if (argc < 2) {
+      // report version
+      std::cout << argv[0] << " Version " << Tutorial_VERSION_MAJOR << "."
+                << Tutorial_VERSION_MINOR << std::endl;
+      std::cout << "Usage: " << argv[0] << " number" << std::endl;
+      return 1;
+    }
+```
+
+> 添加编译时间戳
+
+有时候我们需要知道编译时的时间戳，并在程序运行时打印出来。
+
+那就需要在 CMakeLists.txt 中添加如下这句：
+
+```bash
+string(TIMESTAMP COMPILE_TIME %Y%m%d-%H%M%S)
+```
+
+这表示将时间戳已指定格式保存到 COMPILE_TIME 变量中。
+
+然后修改上面的 http://TutorialConfig.h.in 文件：
+
+```Cpp
+// the configured options and settings for Tutorial
+#define Tutorial_VERSION_MAJOR @PROJECT_VERSION_MAJOR@
+#define Tutorial_VERSION_MINOR @PROJECT_VERSION_MINOR@
+#define Tutorial_VERSION_PATCH @PROJECT_VERSION_PATCH@
+
+#define TIMESTAMP @COMPILE_TIME@
+```
+在构建项目后，TutorialConfig.h 文件就会自动增加一句类似的输出：
+
+```Cpp
+#define TIMESTAMP 20230220-203532
+```
+这样就可以在源码中打印出 TIMESTAMP 的值了。
+
+> 指定 C++ 标准
+接下来将 step1/tutorial.cpp 源码中的 atof 替换为 std::stod，这是 C++11 的特性，并删除 #include<cstdlib>。
+
+```Cpp
+const double inputValue = std::stod(argv[1]);
+```
+
+在 CMake 中支持特定 C++标准的最简单方法是使用 CMAKE_CXX_STANDARD 标准变量。在 CMakeLists.txt 中设置 CMAKE_CXX_STANDARD 为11，CMAKE_CXX_STANDARD_REQUIRED 设置为True。确保在 add_executable 命令之前添加 CMAKE_CXX_STANDARD_REQUIRED 命令
+
+```bash
+cmake_minimum_required(VERSION 3.15)
+
+# set the project name and version
+project(${PROJECT_NAME} VERSION 1.0)
+
+# specify the C++ standard
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+```
+
+需要注意的是，如果你的gcc编译器版本够高，也可以不用指定 C++ 版本为 11。从 GCC 6.1 开始，当不指定任何版本 C++ 标准时，默认版本是 C++ 14，如果你想用 C++17 的语言，还是需要指定的。
+
+修改完成后，需要对代码进行重新编译 cmake --build .，此时可以不用进行项目构建。
+
+此时目录结构为：
+
+```bash
+step2/
+    build/
+    CMakeLists.txt
+    tutorial.cpp
+    TutorialConfig.h.in
+```
+<以下懒得写了，以后再说>
+**Step 3 - 添加库**
+
+**Step 4 - 将库设为可选项**
+
+**Step 5 - 添加库的使用要求**
+
+**Step 6 - Build目录介绍**
+
+
 ### Ninja
+谷歌某员工开发，特点是抛弃了一些繁重的功能，注重速度。
+[🔗 Ninja](https://ninja-build.org/)
+
+直接跳去XMake好了。
+
 
 ### XMake
+XMake 是一个基于 Lua 的轻量级跨平台自动构建工具，支持在 Mac、Linux、Windows、Android、iOS 等多平台、多架构进行快速构建，并且提供了很多常用的构建模块进行快速集成，帮助开发者更专注于项目本身的开发。
+
+好用，但是起步晚。CMake已经成为事实标准了，XMake还需要时间来验证。
+
+[🔗 XMake](https://xmake.io/#/)
