@@ -44,5 +44,7 @@ it works!
 
 [🔗 Official guide](https://eclipse.dev/paho/index.php?page=clients/c/index.php)
 
+I never succeed in Windows, but it works well in Linux.
+
 [🔗 Blog](https://www.cnblogs.com/homejim/p/8146405.html)
 
