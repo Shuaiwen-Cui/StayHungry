@@ -3,7 +3,10 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Shaun's Rabbit Hole</title>
+  <meta   http-equiv= "Expires "   CONTENT= "0 ">                 
+  <meta   http-equiv= "Cache-Control "   CONTENT= "no-cache ">                 
+  <meta   http-equiv= "Pragma "   CONTENT= "no-cache ">   
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -19,7 +22,11 @@
   <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.css"> -->
   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"> -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+<<<<<<< HEAD
   <!-- <link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.0.0/dist/toc.css"> -->
+=======
+  <!-- <link rel="stylesheet" href="./static/css/vue.css"> -->
+>>>>>>> 50c8d2c2546c9b5db023e5e1d0b19184882efaa6
 
   <style>
     /* highlight the highlight*/
@@ -421,6 +428,9 @@
   <!-- or <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex@latest/dist/docsify-katex.js"></script> -->
   <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" /> -->
 
+  <!-- folding -->
+  <script src="./static/js/docsify-sidebar-collapse.min.js" ></script>
+
   <!-- footer -->
   <script src="https://notebook.js.org/plugin/docsify-footer-enh.min.js"></script>
 
@@ -429,7 +439,25 @@
   <!-- use this if you are not hosting the file yourself -->
   <script src="//unpkg.com/docsify-pdf-embed-plugin/src/docsify-pdf-embed.js"></script> 
 
+  <!-- figure zoom in out -->
+  <script src="./static/js/zoom-image.min.js" ></script>
 
+  <script>
+    const gitalk = new Gitalk({
+      clientID: '70cd1669dc606777866b',
+      clientSecret: '50e8ee86dbd37f5f80fa8baea9582d9633b866d0',
+      repo: 'd2l-ros2-foxy',
+      owner: 'fishros',
+      admin: ['fishros'],
+      id: "comment",
+      // facebook-like distraction free mode
+      distractionFreeMode: false
+    })
+  </script>
+
+  <!-- 代码高亮 -->
+  <script src="./static/js/prism-bash.min.js" ></script>
+  <script src="./static/js/prism-php.min.js" ></script>
 
 </body>
 

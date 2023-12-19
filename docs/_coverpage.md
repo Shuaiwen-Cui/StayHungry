@@ -8,5 +8,5 @@
 
 > 📚 Notes / 📝 Plans / 📖 Articles
 
-> ⬇️ Scroll Down To Browse ⬇️
+> ⬇️ Scroll Down To Browse | 下滑浏览 ⬇️
 

@@ -519,3 +519,68 @@ numpy.reshape(a, newshape, order ='C')
 a: 数组
 newshape: 新的形状
 order: 'C'按行，'F'按列，'A'原顺序，'K'元素在内存中的出现顺序
+
+# NumPy数组规整
+> 堆叠
+
+numpy.stack()
+
+numpy.row_stack() is equal to numpy.vstack()
+
+numpy.column_stack() is equal to numpy.hstack()
+
+> 拼接
+
+numpy.concatenate()
+
+nunpy.concatenate((), axis = 0) 竖着堆叠连接
+
+nunpy.concatenate((), axis = 1) 横着堆叠连接
+
+三维堆叠连接
+
+> 重复
+
+numpy.repeat() - 按元素重复
+
+numpy.tile() - 按矩阵重复
+
+> 分块矩阵
+
+numpy.block()
+
+> 切割
+
+numpy.split() - 接受三个参数，第一个参数为要切割的数组，第二个参数为切割的位置，第三个参数为切割的轴向
+
+numpy.hsplit() - 按列切割
+
+numpy.vsplit() - 按行切割
+
+# CH18 NumPy线性代数
+> NumPy 线性代数模块 numpy.linalg
+- 计算矩阵的逆矩阵 - numpy.linalg.inv()
+- 计算矩阵的伪逆 - numpy.linalg.pinv()
+- 求解线性方程组 - numpy.linalg.solve()
+- 最小二乘法拟合 - numpy.linalg.lstsq()
+- 计算向量的范数 - numpy.linalg.norm()
+- 计算向量的点积 - numpy.dot()
+- Cholesky 分解 - numpy.linalg.cholesky()
+- 特征值和特征向量 - numpy.linalg.eig()
+- 奇异值分解 - numpy.linalg.svd()
+
+> 拆解矩阵
+
+> 向量运算
+
+> 矩阵运算 - @
+
+> 几个常见的矩阵分解
+
+- Cholesky 分解
+
+- 特征值分解 EVD
+
+- 奇异值分解 SVD
+  - 奇异值分解是一种重要的矩阵分解方法，它可以将一个矩阵分解为三个矩阵的乘积，即 A = UΣV^T，其中 U 和 V 是正交矩阵，Σ 是对角矩阵，对角线上的元素称为奇异值。奇异值分解可以用于矩阵压缩、矩阵近似、矩阵降维等。NumPy 中的 linalg 模块提供了奇异值分解的函数 numpy.linalg.svd()，它的语法格式为：numpy.linalg.svd(a, full_matrices=True, compute_uv=True)，其中 a 为要分解的矩阵，full_matrices 为是否返回完整的 U 和 V，compute_uv 为是否计算 U 和 V。
+  - 应用领域：图像压缩、推荐系统、自然语言处理、矩阵近似、矩阵降维等。
